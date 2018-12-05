@@ -1,0 +1,290 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.barra{
+	position: fixed;
+	left: 0;
+	top: 300px;
+	z-index: 3000;
+}
+.barra ul{
+	list-style: none;
+
+}
+.ul a{
+	display: block;
+
+}
+.barra #ul li a i:hover{
+	-moz-transform: scale(1) rotate(2deg) translateX(2px) translateY(3px);
+-webkit-transform: scale(1) rotate(2deg) translateX(2px) translateY(3px);
+-o-transform: scale(1) rotate(2deg) translateX(2px) translateY(3px);
+-ms-transform: scale(1) rotate(2deg) translateX(2px) translateY(3px);
+transform: scale(1) rotate(2deg) translateX(2px) translateY(3px);
+}
+
+
+
+
+
+
+
+
+.fac{
+	background-color:#1C64B3; 
+	color: #FFFFFF;
+	font-size: 24px;
+	padding: 15px 20px;
+	border-radius: 50%;
+	margin: 5px;
+
+}
+.twi{
+	background-color: #4FB4C8;
+	color: white;
+	padding: 12px;
+	font-size: 30px;
+	border-radius: 50%;
+	margin: 5px;
+}
+.pin{
+	background-color: red;
+	color: white;
+	padding: 12px 15px;
+	font-size: 30px;
+	border-radius: 50%;
+	margin: 5px;
+}
+.goog{
+	background-color: red;
+	color: white;
+	padding: 18px 16px;
+	font-size: 20px;
+	border-radius: 50%;
+	margin: 5px;
+}
+.enve{
+	background-color: #ACACAC;
+	color: black;
+	padding: 15px;
+	font-size: 30px;
+	border-radius: 50%;
+	margin: 5px;
+}
+.fixed{
+	position: fixed;
+	left: 0;
+	top: 300px;
+	z-index: 2000;
+
+
+}
+
+@media only screen and (max-width: 1800px){
+	body {background-color: blue}
+	}
+a:hover{
+
+background: blue;
+	color: white;
+	float: left;
+-moz-transform: scale(2) rotate(10deg) translateX(1px) translateY(20px);
+-webkit-transform: scale(2) rotate(10deg) translateX(1px) translateY(20px);
+-o-transform: scale(2) rotate(10deg) translateX(1px) translateY(20px);
+-ms-transform: scale(2) rotate(10deg) translateX(1px) translateY(20px);
+transform: scale(2) rotate(10deg) translateX(1px) translateY(20px);
+
+}
+
+
+.container{
+	margin: 0 auto;
+	width: 100%  ;
+	overflow: hidden;
+	max-width: 5000px;
+	background: #E1E0E0; 
+
+}
+.imagen{
+	background: white;
+
+}
+.logo{
+	margin-left: 150px;
+	
+
+}
+img{
+	width: 100px;
+	margin-left: 80px;
+	padding: 20px;
+
+}
+
+h1{
+	font-size: 50px;
+	margin-top: 50px;
+	margin-left: 250px;
+}
+.flecha{
+	padding: 10px;
+}
+
+.container2{
+	margin:10px auto;
+	width: 80%;
+}
+
+.gui{
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	width: 100%;
+	margin-left: 30px;
+	
+}
+
+aside{
+
+	margin-top: 50px;
+	position: relative;
+
+
+}
+.descripcion{
+	color: #F03562;
+	font-size: 30px;
+	margin-left: 10px;
+	display: inline;
+	
+
+	
+}
+.caja{
+	float: right;
+	margin-right: 200px;
+
+}
+.tipo{
+	display: block;
+}
+
+.particulares{
+	display: inline-block;
+	color: #F03562;
+	font-size: 30px;
+	display: inline-block;
+	color: #F03562;
+	font-size: 30px;
+	margin-left: 70px;
+	padding: 100px;
+}
+.empresas {
+	margin-left: 20%;
+	display: inline-block;
+	color: #F03562;
+	font-size: 30px;
+}
+.profesional, .premium, .gratuito{
+	background-color: #333232;
+	color: white;
+	margin-left: 10px;
+	display:inline-block;
+	float: right;
+	width: 180px;
+	font-size: 15px;
+	padding: 40px;
+	padding-bottom: 20px;
+	padding-left: 130px ;
+
+	
+	
+
+}
+.numero1, .numero2, .numero3{
+
+	float: left;
+	width: 50% ;
+	border-right: 1px solid white;
+	font-size: 90px;
+
+
+
+}
+.numero1{
+	color: #4AF028;
+}
+.numero2{
+	color: #F07B1E;
+}
+.numero3{
+	color: #1AF0AC;
+}
+
+table{
+	position: relative;
+	width: 85%;
+	left:-15% ;
+	text-align:left;
+	margin-left: 20%;
+ 	margin-top: 20%;
+}
+tr, td{
+	width: 400px;
+	text-align: center;
+	border-bottom: 1px solid gray;
+	padding: 40px;
+	font-size: 30px;
+}
+.contratar a{
+text-decoration:none;
+color: white;
+background: #F3094B;
+padding: 8px;
+font-size: 30px;
+
+}
+.contratar{
+	margin: 15px 0px 10px 185º0px;
+}
+ strong{
+	font-size: 30px;
+}
+.container3{
+	margin:10px auto;
+	width: 85%;
+}
+footer{
+	background: #0D0D0D;
+	clear: both;
+	border-top: 10px solid #F03562;
+	color: white;
+	text-align: left;
+	padding: 30px 20px;
+	font-size: 25px;
+	
+} 
+.lin{
+	color: #B8B8B8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

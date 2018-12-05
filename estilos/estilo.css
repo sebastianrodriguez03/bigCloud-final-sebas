@@ -1,0 +1,204 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.barra{
+	position: fixed;
+	left: 0;
+	top: 300px;
+	z-index: 3000;
+}
+.barra #ul{
+	list-style: none;
+
+}
+#ul .a{
+	display: block;
+
+}
+.barra #ul .li .a i:hover{
+	font-size: 45px;
+		-moz-transform: scale(1) rotate(2deg) translateX(2px) translateY(3px);
+-webkit-transform: scale(1) rotate(2deg) translateX(2px) translateY(3px);
+-o-transform: scale(1) rotate(2deg) translateX(2px) translateY(3px);
+-ms-transform: scale(1) rotate(2deg) translateX(2px) translateY(3px);
+transform: scale(1) rotate(2deg) translateX(2px) translateY(3px);
+}
+
+.fac{
+	background-color:#1C64B3; 
+	color: #FFFFFF;
+	font-size: 24px;
+	padding: 15px 20px;
+	border-radius: 50%;
+	margin: 5px;
+
+}
+.twi{
+	background-color: #4FB4C8;
+	color: white;
+	padding: 12px;
+	font-size: 30px;
+	border-radius: 50%;
+	margin: 5px;
+}
+.pin{
+	background-color: red;
+	color: white;
+	padding: 12px 15px;
+	font-size: 30px;
+	border-radius: 50%;
+	margin: 5px;
+}
+.goog{
+	background-color: red;
+	color: white;
+	padding: 18px 16px;
+	font-size: 20px;
+	border-radius: 50%;
+	margin: 5px;
+}
+.enve{
+	background-color: #ACACAC;
+	color: black;
+	padding: 15px;
+	font-size: 30px;
+	border-radius: 50%;
+	margin: 5px;
+}
+.fixed{
+	position: fixed;
+	left: 0;
+	top: 300px;
+	z-index: 2000;
+
+
+}
+
+
+
+.main{
+	background-image: url('../image/bg-seccion1.png');
+	border: 1px solid black;
+	background-size: cover; 
+	background-repeat: no-repeat;   
+	background-position: center;
+	height: 1300px; 
+}
+.container{
+	margin-left:270px;	
+
+}
+footer{
+	background: #0D0D0D;
+	color: white;
+	text-align: left;
+	clear: both;
+	padding: 100px 5px;
+} 
+.container .opcion li a{	
+	background: #F01281;
+	text-decoration: none;
+	float:left;
+	color: white;
+	padding: 10px;
+}
+.contratar{
+	background: #F01281;
+	text-decoration: none;
+	float:left;
+	color: white;
+	margin-left: 10px;
+}
+
+a:hover{
+	background: blue;
+	color: white;
+	float: left;
+	-moz-transform: scale(2) rotate(10deg) translateX(1px) translateY(20px);
+-webkit-transform: scale(2) rotate(10deg) translateX(1px) translateY(20px);
+-o-transform: scale(2) rotate(10deg) translateX(1px) translateY(20px);
+-ms-transform: scale(2) rotate(10deg) translateX(1px) translateY(20px);
+transform: scale(2) rotate(10deg) translateX(1px) translateY(20px);
+
+}
+.img:hover{
+	
+	font-size: 50px;
+	background: blue;
+	color: white;
+	float: left;
+	-moz-transform: scale(2) rotate(10deg) translateX(1px) translateY(20px);
+-webkit-transform: scale(2) rotate(10deg) translateX(1px) translateY(20px);
+-o-transform: scale(2) rotate(10deg) translateX(1px) translateY(20px);
+-ms-transform: scale(2) rotate(10deg) translateX(1px) translateY(20px);
+transform: scale(2) rotate(10deg) translateX(1px) translateY(20px);
+}
+
+
+.opcion{
+	list-style: none;
+    font-size: 50px;
+	margin-top: 270px;
+}
+
+.one{
+	float: right;
+}
+.menus{
+	text-align: left;
+}
+
+.main1{  
+	margin-left:500px ;
+	margin-top: 50px; 
+
+
+}
+
+.imagen{
+	margin-top: 50px;
+	margin-bottom: 80px;
+	margin-right: 90px;	
+	height: 400px;
+}
+aside{
+
+	margin-top: 50px;
+	position: relative;
+	float: left;
+
+}
+footer{
+	border-top: 5px solid #F01281;
+	clear: both;
+	margin: 0px 0px 40px 0px;
+	font-size: 30px;
+}
+.sebas{
+	margin-top: 150px;
+	position: relative;
+	float: left;
+	height: 400px;
+	font-size: 25px;
+}
+.sebas2{
+	margin-left: 50px;
+}
+.lin{
+	color: #B8B8B8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
